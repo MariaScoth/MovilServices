@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sonido_opciones">
+        <item>Selecciona un sonido</item>
+        <item>Ring</item>
+        <item>Bell</item>
+        <item>Personalizado</item>
+    </string-array>
+    <color name="azul_claro">#92D3EB</color>
+    <color name="azul_osc">#3BAEDA</color>
+    <color name="black">#FF000000</color>
+    <color name="gris">#D9D9D9</color>
+    <color name="rosa">#DA3B6E</color>
+    <color name="verde">#DAC63B</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="Logo">Logo</string>
+    <string name="am">AM</string>
+    <string name="app_name">ServiceAlarm</string>
+    <string name="btn_agregar">AGREGAR OTRA ALARMA</string>
+    <string name="btn_buscar">BUSCAR</string>
+    <string name="btn_siguiente">SIGUIENTE</string>
+    <string name="cancion">¡Aquí va tu canción!</string>
+    <string name="día">D</string>
+    <string name="enviar_correo">Enviar al correo</string>
+    <string name="enviar_sms">Enviar mensaje de texto</string>
+    <string name="escribe">Escribe aquí</string>
+    <string name="fecha_corte">Fecha Corte:</string>
+    <string name="fecha_pago">Fecha Pago:</string>
+    <string name="fecha_recep">Fecha Recepción:</string>
+    <string name="hora">HH:MM</string>
+    <string name="label_alarma">Alarma a las</string>
+    <string name="label_dias_antes">Días antes</string>
+    <string name="ninguna">Ninguna</string>
+    <string name="pm">PM</string>
+    <string name="tip">Tip sonido alarma</string>
+    <string name="title_configurar">CONFIGURAR ALARMA</string>
+    <string name="title_notificaciones">NOTIFICACIONES</string>
+    <string name="title_sonido">SONIDO DE LA ALARMA</string>
+    <style name="Base.Theme.ServiceAlarm" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.ServiceAlarm" parent="Base.Theme.ServiceAlarm"/>
+</resources>
