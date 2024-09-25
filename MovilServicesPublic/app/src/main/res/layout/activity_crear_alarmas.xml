@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".crearAlarmas">
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/backgrounda_app"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <!-- Otros elementos del layout -->
+
+            <ImageView
+                android:id="@+id/miImagen"
+                android:layout_width="wrap_content"
+                android:layout_height="250dp"
+                android:src="@drawable/alarm_clock_12179137"
+                android:layout_alignParentEnd="true" />
+
+            <Button
+                android:id="@+id/button_crear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/background_button"
+                android:fontFamily="@font/roboto_medium"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="0dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="0dp"
+                android:text="CREAR ALARMAS"
+                android:textColor="@color/white"
+                android:textColorLink="@color/azul_osc"
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/button_alarmas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/background_button"
+                android:fontFamily="@font/roboto_medium"
+                android:insetTop="0dp"
+                android:insetBottom="0dp"
+                android:paddingLeft="30dp"
+                android:paddingTop="0dp"
+                android:paddingRight="30dp"
+                android:paddingBottom="0dp"
+                android:text="MIS ALARMAS"
+                android:textColor="@color/white"
+                android:textColorLink="@color/azul_osc"
+                android:textSize="20sp" />
+
+
+
+            <TextView
+                android:id="@+id/title_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡PRÓXIMOS PAGOS A VENCER!"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="32dp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/title_text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="¡Estas al día!"
+                android:textSize="14sp"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="32dp"
+                android:gravity="center" />
+
+
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
