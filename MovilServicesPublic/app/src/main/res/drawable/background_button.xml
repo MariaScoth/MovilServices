@@ -1,21 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
-    <!-- Fondo del botón -->
-    <item>
-        <shape android:shape="rectangle">
-            <solid android:color="@color/azul_claro"/> <!-- Color del fondo -->
-            <corners android:radius="4dp"/> <!-- Esquinas redondeadas -->
-        </shape>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_pressed="true">
+        <layer-list>
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/azul_osc"/>
+                    <corners android:radius="4dp"/>
+                </shape>
+            </item>
+            <!-- Stroke solo en la parte inferior -->
+            <item android:bottom="10dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/verde"/> <!-- Color del fondo al presionar -->
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="4dp"
+                        android:color="@color/azul_claro"/> <!-- Color y ancho del stroke -->
+                </shape>
+            </item>
+        </layer-list>
     </item>
 
-    <!-- Stroke solo en la parte inferior -->
-    <item android:bottom="10dp">
-        <shape android:shape="rectangle">
-            <solid android:color="@color/azul_osc"/>
-            <corners android:radius="4dp"/>
-            <stroke
-                android:width="4dp"
-                android:color="@color/azul_claro"/> <!-- Color y ancho del stroke -->
-        </shape>
+    <!-- Estado normal -->
+    <item>
+        <layer-list>
+            <!-- Fondo del botón -->
+            <item>
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/azul_claro"/> <!-- Color del fondo normal -->
+                    <corners android:radius="4dp"/> <!-- Esquinas redondeadas -->
+                </shape>
+            </item>
+            <!-- Stroke solo en la parte inferior -->
+            <item android:bottom="10dp">
+                <shape android:shape="rectangle">
+                    <solid android:color="@color/azul_osc"/> <!-- Color del stroke -->
+                    <corners android:radius="4dp"/>
+                    <stroke
+                        android:width="4dp"
+                        android:color="@color/azul_claro"/> <!-- Color y ancho del stroke -->
+                </shape>
+            </item>
+        </layer-list>
     </item>
-</layer-list>
+</selector>

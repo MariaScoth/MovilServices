@@ -13,12 +13,26 @@
         android:theme="@style/Theme.MovilServicesPublic"
         tools:targetApi="31">
         <activity
+            android:name=".ConfigurarSonidoAlarma"
+            android:exported="false" />
+        <activity
+            android:name=".ConfigurarNotificaciones"
+            android:exported="false" />
+        <activity
+            android:name=".ConfigurarAlarmaCorte"
+            android:exported="false" />
+        <activity
+            android:name=".ConfigurarAlarmaPago"
+            android:exported="false" />
+        <activity
+            android:name=".ConfigurarAlarmaRecepcion"
+            android:exported="false" />
+        <activity
             android:name=".ServicesPublic"
             android:exported="false" />
         <activity
             android:name=".CrearAlarmas2"
             android:exported="false" />
-
         <activity
             android:name=".crearAlarmas"
             android:exported="true">

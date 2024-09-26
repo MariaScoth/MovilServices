@@ -2,6 +2,7 @@
     <string name="app_name">ServiceAlarm</string>
     <string name="btn_siguiente">SIGUIENTE</string>
     <string name="btn_agregar">AGREGAR OTRA ALARMA</string>
+    <string name="btn_buscar">BUSCAR</string>
     <string name="title_configurar">CONFIGURAR ALARMA</string>
     <string name="fecha_recep">Fecha Recepción:</string>
     <string name="fecha_pago">Fecha Pago:</string>
@@ -53,4 +54,21 @@
         libero vel nunc consequat, quis tincidunt nisl eleifend. Cras bibendum enim a justo luctus
         vestibulum. Fusce dictum libero quis erat maximus, vitae volutpat diam dignissim.
     </string>
+
+    <string name="title_notificaciones">NOTIFICACIONES</string>
+    <string name="enviar_correo">Enviar al correo</string>
+    <string name="enviar_sms">Enviar mensaje de texto</string>
+    <string name="ninguna">Ninguna</string>
+    <string name="title_sonido">SONIDO DE LA ALARMA</string>
+    <string name="cancion">¡Aquí va tu canción!</string>
+    <string name="escribe">Escribe aquí</string>
+    <string name="tip">Tip sonido alarma</string>
+    <string name="am">AM</string>
+    <string name="pm">PM</string>
+    <string-array name="sonido_opciones">
+        <item>Selecciona un sonido</item>
+        <item>Ring</item>
+        <item>Bell</item>
+        <item>Personalizado</item>
+    </string-array>
 </resources>

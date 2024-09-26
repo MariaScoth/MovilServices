@@ -19,26 +19,26 @@ class ServicesPublic : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
-       // val btnAbrirOtraPantalla = findViewById<ImageButton>(R.id.button1)
-        //val btnAbrirOtraPantalla1 = findViewById<ImageButton>(R.id.button2)
-        //val btnAbrirOtraPantalla2 = findViewById<ImageButton>(R.id.button3)
-        //val btnAbrirOtraPantalla3 = findViewById<ImageButton>(R.id.button4)
-       // btnAbrirOtraPantalla.setOnClickListener {
-        //val intent = Intent(this, ConfigurarAlarmaRecepcion::class.java)
-          //  startActivity(intent)
-        //}
-        //btnAbrirOtraPantalla1.setOnClickListener {
-          //  val intent = Intent(this, ConfigurarAlarmaRecepcion::class.java)
-            //startActivity(intent)
-        //}
-        //btnAbrirOtraPantalla2.setOnClickListener {
-          //  val intent = Intent(this, ConfigurarAlarmaRecepcion::class.java)
-            //startActivity(intent)
-        //}
-        //btnAbrirOtraPantalla3.setOnClickListener {
-          //  val intent = Intent(this, ConfigurarAlarmaRecepcion::class.java)
-           // startActivity(intent)
-        //}
+        val btnAbrirOtraPantalla = findViewById<ImageButton>(R.id.button1)
+        val btnAbrirOtraPantalla1 = findViewById<ImageButton>(R.id.button2)
+        val btnAbrirOtraPantalla2 = findViewById<ImageButton>(R.id.button3)
+        val btnAbrirOtraPantalla3 = findViewById<ImageButton>(R.id.button4)
+        btnAbrirOtraPantalla.setOnClickListener {
+        val intent = Intent(this, ConfigurarAlarmaRecepcion::class.java)
+          startActivity(intent)
+        }
+        btnAbrirOtraPantalla1.setOnClickListener {
+            val intent = Intent(this, ConfigurarAlarmaRecepcion::class.java)
+            startActivity(intent)
+        }
+        btnAbrirOtraPantalla2.setOnClickListener {
+            val intent = Intent(this, ConfigurarAlarmaRecepcion::class.java)
+            startActivity(intent)
+        }
+        btnAbrirOtraPantalla3.setOnClickListener {
+            val intent = Intent(this, ConfigurarAlarmaRecepcion::class.java)
+             startActivity(intent)
+        }
 
     }
 }
